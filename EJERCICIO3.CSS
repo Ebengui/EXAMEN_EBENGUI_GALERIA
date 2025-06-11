@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: solid 8px;
+}
+.galeria{
+      display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 80%;
+    height: 60vh;
+    gap: 16px;
+    margin: 20px;
+    padding: 20px;
+   
+
